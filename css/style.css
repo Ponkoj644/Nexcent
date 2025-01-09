@@ -1,14 +1,53 @@
 /* Custom font */
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
 /* Reset */
-:root{
-
+:root {
+  --primary-color: #4caf4f;
+  --section-color: #f5f7fa;
+  --text-color: #4d4d4d;
 }
 
-body{
-    font-family: 'Inter', sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+body {
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+/* Header Section CSS Start */
+
+.header-section {
+  background-color: var(--section-color);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.my-navbar .nav-link {
+  color: #18191f;
+}
+
+.my-navbar .nav-link.active {
+  font-weight: 500;
+}
+
+.my-navbar .nav-link:hover {
+  color: #4caf4f;
+}
+
+.my-navbar .btn-login {
+  color: var(--primary-color);
+  border: none;
+}
+
+.my-navbar .btn-search{
+    background-color: var(--primary-color);
+    color: #f5f7fa;
+    border: 1px solid #4caf4f;
+}
+
+.my-navbar .btn-search:hover{
+    background-color: transparent;
+    border:1px solid #4caf4f;
+    color: var(--primary-color);
+}
+/* Header Section CSS End */
