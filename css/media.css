@@ -3,9 +3,6 @@
 
 /* // `sm` applies to x-small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
-  .hero-row {
-    height: inherit;
-  }
 }
 
 /* // `md` applies to small devices (landscape phones, less than 768px) */
@@ -14,6 +11,9 @@
 
 /* // `lg` applies to medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) {
+  .hero-row {
+    height: inherit;
+  }
 }
 
 /* // `xl` applies to large devices (desktops, less than 1200px) */

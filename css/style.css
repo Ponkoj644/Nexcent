@@ -33,6 +33,16 @@ body {
   border:1px solid var(--primary-color);
 }
 
+.section-heading{
+  
+}
+.section-heading h3{
+  font-size:2.25rem ;
+  line-height: 2.75rem;
+  font-weight: 600;
+  color: var(--text-color);
+}
+
 /* Header Section CSS Start */
 
 .header-section {
@@ -71,10 +81,9 @@ body {
 /* Header Section CSS End */
 
 /* Hero Section CSS Start */
-
 .hero-section {
   background-color: var(--section-color);
-  /* height: 80vh; */
+
 }
 .hero-row{
   height: 100vh;
