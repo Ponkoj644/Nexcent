@@ -5,14 +5,21 @@
 @media (max-width: 575.98px) {
 }
 
-/* // `md` applies to small devices (landscape phones, less than 768px) */
-@media (max-width: 767.98px) {
-}
-
 /* // `lg` applies to medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) {
   .hero-row {
     height: inherit;
+  }
+
+  .marketing-section .paragraph {
+    width: 75%;
+  }
+}
+
+/* // `md` applies to small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+  .marketing-section .paragraph {
+    width: fit-content;
   }
 }
 

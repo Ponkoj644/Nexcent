@@ -154,7 +154,6 @@ body {
 /* Local Section CSS End */
 
 /* Design section CSS Start */
-
 .design-section {
 }
 .design-section h3 {
@@ -163,9 +162,21 @@ body {
   font-weight: 600;
   line-height: 1.75rem;
 }
+
+.design-section .reviews {
+}
 .design-section .reviews a {
   text-decoration: none;
   color: var(--primary-color);
   font-weight: 600;
 }
 /* Design section CSS End */
+
+/* Marketing section CSS Start */
+.marketing-section {
+}
+.marketing-section .paragraph {
+  width: 50%;
+  margin: 0 auto;
+}
+/* Marketing section CSS End */
