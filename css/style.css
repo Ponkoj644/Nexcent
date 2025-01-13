@@ -141,7 +141,7 @@ body {
   line-height: 2.75rem;
   font-weight: 600;
   color: var(--primary-color);
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
 }
 
 .local-section .local-text h3 {
@@ -152,3 +152,20 @@ body {
 }
 
 /* Local Section CSS End */
+
+/* Design section CSS Start */
+
+.design-section {
+}
+.design-section h3 {
+  color: var(--primary-color);
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 1.75rem;
+}
+.design-section .reviews a {
+  text-decoration: none;
+  color: var(--primary-color);
+  font-weight: 600;
+}
+/* Design section CSS End */
