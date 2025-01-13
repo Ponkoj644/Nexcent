@@ -21,23 +21,22 @@ body {
   color: #717171;
 }
 
-.btn-main{
+.btn-main {
   background-color: var(--primary-color);
   color: #f5f7fa;
-  border:1px solid var(--primary-color);
+  border: 1px solid var(--primary-color);
 }
 
-.btn-main:hover{
+.btn-main:hover {
   background-color: transparent;
   color: var(--primary-color);
-  border:1px solid var(--primary-color);
+  border: 1px solid var(--primary-color);
 }
 
-.section-heading{
-  
+.section-heading {
 }
-.section-heading h3{
-  font-size:2.25rem ;
+.section-heading h3 {
+  font-size: 2.25rem;
   line-height: 2.75rem;
   font-weight: 600;
   color: var(--text-color);
@@ -83,9 +82,8 @@ body {
 /* Hero Section CSS Start */
 .hero-section {
   background-color: var(--section-color);
-
 }
-.hero-row{
+.hero-row {
   height: 100vh;
 }
 .hero-content h1 {
@@ -107,8 +105,28 @@ body {
   margin-bottom: 2rem;
 }
 
-/* .hero-content p {
-  font-size: 1.2rem;
-  color: var(--text-color);
-} */
 /* Hero Section CSS End */
+
+/* Community Section CSS Start */
+.cocommunity-section {
+}
+
+.community-cards {
+}
+.community-cards .col {
+  cursor: pointer;
+
+}
+.community-cards h3 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: var(--text-color);
+  line-height: 2.25rem;
+}
+.community-cards p {
+  font-size: 0.875rem;
+  color: #717171;
+  line-height: 1.25rem;
+}
+
+/* Community Section CSS End */
