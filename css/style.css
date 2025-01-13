@@ -115,7 +115,6 @@ body {
 }
 .community-cards .col {
   cursor: pointer;
-
 }
 .community-cards h3 {
   font-size: 1.75rem;
@@ -128,5 +127,28 @@ body {
   color: #717171;
   line-height: 1.25rem;
 }
-
 /* Community Section CSS End */
+
+/* Local Section CSS Start */
+
+.local-section {
+  background-color: rgba(245, 247, 250, 1);
+}
+
+.local-section .section-heading span {
+  display: block;
+  font-size: 2.25rem;
+  line-height: 2.75rem;
+  font-weight: 600;
+  color: var(--primary-color);
+  margin-bottom: .5rem;
+}
+
+.local-section .local-text h3 {
+  columns: var(--text-color);
+  font-size: 1.75rem;
+  font-weight: 700;
+  line-height: 2.25rem;
+}
+
+/* Local Section CSS End */
