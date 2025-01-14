@@ -151,21 +151,34 @@ body {
   line-height: 2.25rem;
 }
 
+.local-counter {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
 /* Local Section CSS End */
 
 /* Design section CSS Start */
 .design-section {
 }
-.design-section h3 {
+.design-section .section-heading h3 {
+  color: var(--text-color);
+  font-size: 2.25rem;
+  font-weight: 600;
+  line-height: 2.75rem;
+}
+
+.design-section .reviews {
+}
+
+.design-section .design-content h3 {
   color: var(--primary-color);
   font-size: 1.25rem;
   font-weight: 600;
   line-height: 1.75rem;
 }
-
-.design-section .reviews {
-}
-.design-section .reviews a {
+.design-section .clients-logo a {
   text-decoration: none;
   color: var(--primary-color);
   font-weight: 600;

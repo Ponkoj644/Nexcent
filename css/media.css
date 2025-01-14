@@ -3,6 +3,35 @@
 
 /* // `sm` applies to x-small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
+  .hero-content h1 {
+    font-size: 3rem;
+    line-height: 3.75rem;
+  }
+
+  .hero-content h2 {
+    font-size: 3rem;
+    line-height: 3.75rem;
+  }
+
+  .local-counter {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* // `md` applies to small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+  .hero-content h1 {
+    font-size: 3.5rem;
+    line-height: 4rem;
+  }
+
+  .hero-content h2 {
+    font-size: 3.5rem;
+    line-height: 4rem;
+  }
+  .marketing-section .paragraph {
+    width: fit-content;
+  }
 }
 
 /* // `lg` applies to medium devices (tablets, less than 992px) */
@@ -13,13 +42,6 @@
 
   .marketing-section .paragraph {
     width: 75%;
-  }
-}
-
-/* // `md` applies to small devices (landscape phones, less than 768px) */
-@media (max-width: 767.98px) {
-  .marketing-section .paragraph {
-    width: fit-content;
   }
 }
 
