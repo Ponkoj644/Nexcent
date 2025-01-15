@@ -13,6 +13,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: #f5f7fa;
 }
 
 .paragraph {
@@ -192,4 +193,68 @@ body {
   width: 50%;
   margin: 0 auto;
 }
+
+.marketing-section .marketing-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  cursor: pointer;
+}
+
+.marketing-section .card {
+  background-color: transparent;
+  border: transparent;
+  transition: all 0.3s ease-in-out;
+}
+
+.marketing-section .card:hover {
+  transform: translateY(-0.5rem);
+}
+
+.marketing-section .card-body {
+  background-color: transparent;
+  padding: 0;
+}
+
+.marketing-section .card-text {
+  background-color: #f5f7fa;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  margin-top: -4rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  color: var(--text-color);
+}
+
+.marketing-section .card-text a {
+  text-decoration: none;
+  color: var(--primary-color);
+  font-weight: 600;
+}
 /* Marketing section CSS End */
+
+/* suscipit section CSS Start */
+.suscipit-section {
+}
+
+.suscipit-section .section-heading {
+  width: 70%;
+  margin: auto;
+}
+
+.suscipit-section .section-heading h3 {
+  color: #263238;
+  font-size: 4rem;
+  font-weight: 600;
+  line-height: 4.75rem;
+}
+
+.suscipit-section .section-heading a:hover {
+  color: var(--primary-color);
+}
+
+.suscipit-section .section-heading a {
+  color: var(--section-color);
+}
+/* suscipit section CSS End */

@@ -1,20 +1,35 @@
 /* // `xs` returns only a ruleset and no media query */
 /* // ... { ... } */
 
-/* // `sm` applies to x-small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) {
-  .hero-content h1 {
-    font-size: 3rem;
-    line-height: 3.75rem;
+/* // `xxl` applies to x-large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {
+}
+
+/* // `xl` applies to large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+}
+
+/* // `lg` applies to medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+  .hero-row {
+    height: inherit;
   }
 
-  .hero-content h2 {
-    font-size: 3rem;
-    line-height: 3.75rem;
+  .marketing-section .paragraph {
+    width: 75%;
+  }
+  .marketing-section .marketing-cards {
+    grid-template-columns: repeat(2, 1fr);
   }
 
-  .local-counter {
-    grid-template-columns: 1fr;
+  .suscipit-section .section-heading{
+    width: 85%;
+    margin: auto;
+  }
+
+  .suscipit-section .section-heading h3 {
+    font-size: 3.5rem;
+    line-height: 4.25rem;
   }
 }
 
@@ -32,23 +47,39 @@
   .marketing-section .paragraph {
     width: fit-content;
   }
-}
 
-/* // `lg` applies to medium devices (tablets, less than 992px) */
-@media (max-width: 991.98px) {
-  .hero-row {
-    height: inherit;
+  .marketing-section .marketing-cards {
+    grid-template-columns: repeat(1, 1fr);
   }
 
-  .marketing-section .paragraph {
-    width: 75%;
+  .suscipit-section .section-heading{
+    width: inherit;
+
+  }
+
+  .suscipit-section .section-heading h3 {
+    font-size: 2.5rem;
+    line-height: 3.25rem;
   }
 }
 
-/* // `xl` applies to large devices (desktops, less than 1200px) */
-@media (max-width: 1199.98px) {
-}
+/* // `sm` applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .hero-content h1 {
+    font-size: 3rem;
+    line-height: 3.75rem;
+  }
 
-/* // `xxl` applies to x-large devices (large desktops, less than 1400px) */
-@media (max-width: 1399.98px) {
+  .hero-content h2 {
+    font-size: 3rem;
+    line-height: 3.75rem;
+  }
+
+  .local-counter {
+    grid-template-columns: 1fr;
+  }
+
+  .marketing-section .marketing-cards {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
