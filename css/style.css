@@ -258,3 +258,83 @@ body {
   color: var(--section-color);
 }
 /* suscipit section CSS End */
+
+/* Footer section CSS Start  */
+
+.footer-section {
+  background-color: #263238;
+  color: var(--section-color);
+}
+
+.footer-section .left-side {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.footer-section .social {
+  display: flex;
+  gap: 1rem;
+}
+.footer-section .social a {
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.footer-section .social a:hover {
+  transform: translateY(-0.5rem);
+}
+
+.footer-section .right-side {
+  display: flex;
+  align-items: start;
+  justify-content: space-around;
+  gap: 3rem;
+}
+.footer-section .right-side h3 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  margin-bottom: 24px;
+}
+
+.footer-section .right-side a {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: var(--section-color);
+  transition: all 0.3s ease-in-out;
+}
+
+.footer-section .right-side a:hover {
+  color: var(--primary-color);
+}
+
+.footer-section .right-side form{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.footer-section .right-side input {
+  background: #717171;
+  padding: 0.5rem 1rem;
+  border: none;
+  outline: none;
+  color: var(--section-color);
+  border-radius: 0.5rem;
+  position: relative;
+  width: 100%;
+}
+
+.footer-section .right-side img {
+  position: absolute;
+  margin-right: 1rem;
+}
+
+.footer-section .right-side input::placeholder {
+  color: var(--section-color);
+  font-size: 14px;
+}
+
+/* Footer section CSS End */

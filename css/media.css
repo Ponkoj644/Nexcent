@@ -61,6 +61,10 @@
     font-size: 2.5rem;
     line-height: 3.25rem;
   }
+
+  .footer-section .right-side{
+    flex-direction: column;
+  }
 }
 
 /* // `sm` applies to x-small devices (portrait phones, less than 576px) */
