@@ -44,7 +44,9 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mx-auto mb-2 mb-lg-0 gap-3 mt-lg-0 mt-sm-3">
+            <ul
+              class="navbar-nav mx-auto mb-4 mb-lg-0 gap-3 mt-lg-0 mt-sm-3 align-items-center"
+            >
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
@@ -65,9 +67,9 @@
                 <a class="nav-link" href="#">FAQ</a>
               </li>
             </ul>
-            <div class="d-flex gap-3" role="search">
+            <div class="d-flex gap-3 justify-content-between" role="search">
               <button class="btn btn-login">Login</button>
-              <button class="btn btn-search">Search</button>
+              <button class="btn btn-search">Sign up</button>
             </div>
           </div>
         </div>
@@ -78,18 +80,18 @@
     <!-- main section start -->
     <main>
       <!-- hero section start -->
-      <section class="hero-section d-flex align-items-center">
+      <section class="hero-section d-flex align-items-center d-none">
         <div class="container">
           <div class="row align-items-center justify-content-center hero-row">
             <div class="col-lg-7 col-md-12 col-sm-12">
               <div class="hero-content text-center text-lg-start text-md-start">
                 <h1>Lessons and insights</h1>
                 <h2>from 8 years</h2>
-                <p class="paragraph">
+                <p class="paragraph my-3 my-lg-4">
                   Where to grow your business as a photographer: site or social
                   media?
                 </p>
-                <button class="btn btn-main">Get Started</button>
+                <button class="btn btn-main">Register</button>
               </div>
             </div>
             <div class="col-lg-5 col-md-12 col-sm-12">
@@ -103,12 +105,12 @@
       <!-- hero section end -->
 
       <!-- clients section start -->
-      <section class="clients-section my-3">
+      <section class="clients-section py-5 d-none">
         <div class="container">
           <div class="row align-items-center justify-content-center">
             <div class="text-center section-heading">
               <h3 class="text-center">Our Clients</h3>
-              <p class="paragraph">
+              <p class="paragraph py-2">
                 We have been working with some Fortune 500+ clients
               </p>
             </div>
@@ -192,22 +194,81 @@
       <!-- clients section end -->
 
       <!-- comunity section start -->
-      <section class="community-section mt-5">
+      <section class="community-section py-5 d-none">
         <div class="container">
           <div class="row align-items-center justify-content-center">
             <div class="text-center section-heading">
               <h3 class="text-center">
                 Manage your entire community in a single system
               </h3>
-              <p class="paragraph">Who is Nextcent suitable for?</p>
+              <p class="paragraph py-2">Who is Nextcent suitable for?</p>
             </div>
 
-            <div class="community-cards mb-5">
+            <!-- community cards-->
+
+            <div class="community-cards text-center my-5">
+              <div
+                class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3 g-lg-4"
+              >
+                <div class="">
+                  <div class="card p-5 bg-white shadow-sm rounded-2">
+                    <div class="card-img-top">
+                      <img
+                        src="./images/Community-1.svg"
+                        alt="Community"
+                        class="img-fluid"
+                      />
+                    </div>
+                    <h3 class="py-3">Membership Organisations</h3>
+                    <p class="paragraph">
+                      Our membership management software provides full
+                      automation of membership renewals and payments
+                    </p>
+                  </div>
+                </div>
+
+                <div class="">
+                  <div class="card p-5 bg-white shadow-sm rounded-2">
+                    <div class="card-img-top">
+                      <img
+                        src="./images/Community-2.svg"
+                        alt="Community"
+                        class="img-fluid"
+                      />
+                    </div>
+                    <h3 class="py-3">National Associations</h3>
+                    <p class="paragraph">
+                      Our membership management software provides full
+                      automation of membership renewals and payments
+                    </p>
+                  </div>
+                </div>
+
+                <div class="">
+                  <div class="card p-5 bg-white shadow-sm rounded-2">
+                    <div class="card-img-top">
+                      <img
+                        src="./images/Community-3.svg"
+                        alt="Community"
+                        class="img-fluid"
+                      />
+                    </div>
+                    <h3 class="py-3 mx-3">Clubs And Groups</h3>
+                    <p class="paragraph">
+                      Our membership management software provides full
+                      automation of membership renewals and payments
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- <div class="community-cards mb-5">
               <div class="container text-center my-5">
                 <div
                   class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3 g-lg-4"
                 >
-                  <div class="col">
+                  <div class="col card">
                     <div class="px-5 py-4 bg-light shadow-sm rounded-2">
                       <img
                         src="./images/Community-1.svg"
@@ -253,7 +314,7 @@
                   </div>
                 </div>
               </div>
-            </div>
+            </div> -->
           </div>
         </div>
       </section>
@@ -261,7 +322,7 @@
 
       <!-- Pixalgrade section start -->
 
-      <section class="pixelgrede-section mb-5">
+      <section class="pixelgrede-section py-5">
         <div class="container">
           <div class="row align-items-center">
             <div class="col-lg-6 col-md-12 col-sm-12">
@@ -277,7 +338,7 @@
               <div class="pixelgrede-content">
                 <div class="text-start section-heading">
                   <h3>The unseen of spending three years at Pixelgrade</h3>
-                  <p class="paragraph py-3">
+                  <p class="paragraph py-3 py-md-4">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
                     sit amet justo ipsum. Sed accumsan quam vitae est varius
                     fringilla. Pellentesque placerat vestibulum lorem sed porta.
@@ -295,8 +356,8 @@
       <!-- Pixalgrade section end -->
 
       <!-- Local business section start -->
-      <section class="local-section">
-        <div class="container py-5">
+      <section class="local-section py-5">
+        <div class="container">
           <div class="row align-items-center">
             <div class="col-lg-6 col-md-12 col-sm-12">
               <div class="local-business-content">
@@ -441,7 +502,7 @@
       <!-- Design section start -->
       <section class="design-section py-5">
         <div class="container">
-          <div class="row align-items-center">
+          <div class="row align-items-center py-5">
             <div class="col-lg-6 col-md-12 col-sm-12">
               <img
                 src="./images/Design-img.svg"
@@ -455,7 +516,7 @@
                 <div class="text-start section-heading">
                   <h3>How to design your site footer like we did</h3>
 
-                  <p class="paragraph py-2">
+                  <p class="paragraph py-3">
                     Donec a eros justo. Fusce egestas tristique ultrices. Nam
                     tempor, augue nec tincidunt molestie, massa nunc varius
                     arcu, at scelerisque elit erat a magna. Donec quis erat at
@@ -473,7 +534,7 @@
             </div>
           </div>
 
-          <div class="row my-5">
+          <div class="row py-5 design-content-2">
             <div class="col-lg-4 col-md-12 col-sm-12">
               <img
                 src="./images/Design-img-2.png"
@@ -482,10 +543,10 @@
               />
             </div>
 
-            <div class="col-lg-8 col-md-12 col-sm-12">
-              <div class="design-content mt-3 mt-lg-0">
+            <div class="col-lg-8 col-md-12 col-sm-12 design-content">
+              <div class="mt-3 mt-lg-0">
                 <div class="text-start section-heading">
-                  <p class="paragraph py-2">
+                  <p class="paragraph">
                     Maecenas dignissim justo eget nulla rutrum molestie.
                     Maecenas lobortis sem dui, vel rutrum risus tincidunt
                     ullamcorper. Proin eu enim metus. Vivamus sed libero ornare,
@@ -499,9 +560,9 @@
                     condimentum id. Curabitur id nibh id sem dignissim finibus
                     ac sit amet magna.
                   </p>
-                  <h3>Tim Smith</h3>
+                  <h4 class="py-2">Tim Smith</h4>
 
-                  <p class="paragraph">
+                  <p class="paragraph pb-3 pb-md-5">
                     British Dragon Boat Racing Association
                   </p>
                 </div>
@@ -683,7 +744,7 @@
             <div class="section-heading text-center">
               <h3>Pellentesque suscipit fringilla libero eu.</h3>
 
-              <a href="#" class="btn btn-main text-decoration-none my-3"
+              <a href="#" class="btn btn-main text-decoration-none my-3 my-lg-4"
                 >Get a Demo -></a
               >
             </div>

@@ -6,6 +6,9 @@
   --primary-color: #4caf4f;
   --section-color: #f5f7fa;
   --text-color: #4d4d4d;
+  --bg-white: #fafafa;
+
+  --transition: all 0.3s ease-in-out;
 }
 
 body {
@@ -14,6 +17,15 @@ body {
   padding: 0;
   box-sizing: border-box;
   background-color: #f5f7fa;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+span {
+  margin-bottom: 0;
 }
 
 .paragraph {
@@ -51,11 +63,12 @@ body {
 }
 
 .my-navbar .nav-link {
-  color: #18191f;
+  color: var(--text-color);
 }
 
 .my-navbar .nav-link.active {
   font-weight: 500;
+  color: var(--primary-color);
 }
 
 .my-navbar .nav-link:hover {
@@ -102,21 +115,35 @@ body {
 }
 
 .hero-content .paragraph {
-  margin-top: 1rem;
-  margin-bottom: 2rem;
+  /* margin-top: 1rem;
+  margin-bottom: 2rem; */
 }
-
 /* Hero Section CSS End */
 
+/* Client section CSS Start  */
+.clients-section {
+  background-color: var(--bg-white);
+}
+
+/* Client section CSS End  */
+
 /* Community Section CSS Start */
-.cocommunity-section {
+.community-section {
+  background-color: var(--bg-white);
 }
 
 .community-cards {
 }
-.community-cards .col {
+.community-cards .card {
   cursor: pointer;
+  transition: var(--transition);
 }
+
+.community-cards .card:hover {
+  border: var(--primary-color);
+  transform: translateY(-5px);
+}
+
 .community-cards h3 {
   font-size: 1.75rem;
   font-weight: 700;
@@ -129,6 +156,13 @@ body {
   line-height: 1.25rem;
 }
 /* Community Section CSS End */
+
+/* Pixelgrade Section CSS Start */
+
+.pixelgrede-section {
+  background-color: var(--bg-white);
+}
+/* Pixelgrade Section CSS End */
 
 /* Local Section CSS Start */
 
@@ -162,23 +196,24 @@ body {
 
 /* Design section CSS Start */
 .design-section {
+  background-color: var(--bg-white);
 }
-.design-section .section-heading h3 {
-  color: var(--text-color);
-  font-size: 2.25rem;
+
+
+.design-content .section-heading h4 {
+  color: var(--primary-color);
+  font-size: 1.25rem;
+  line-height: 1.75rem;
   font-weight: 600;
-  line-height: 2.75rem;
+}
+
+.design-content-2{
+  background-color: #F5F7FA;
 }
 
 .design-section .reviews {
 }
 
-.design-section .design-content h3 {
-  color: var(--primary-color);
-  font-size: 1.25rem;
-  font-weight: 600;
-  line-height: 1.75rem;
-}
 .design-section .clients-logo a {
   text-decoration: none;
   color: var(--primary-color);
@@ -188,6 +223,7 @@ body {
 
 /* Marketing section CSS Start */
 .marketing-section {
+  background-color: var(--bg-white);
 }
 .marketing-section .paragraph {
   width: 50%;
@@ -269,7 +305,13 @@ body {
 .footer-section .left-side {
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
+  gap: 3rem;
+}
+
+.footer-section .left-side p{
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
 }
 
 .footer-section .social {
@@ -311,7 +353,7 @@ body {
   color: var(--primary-color);
 }
 
-.footer-section .right-side form{
+.footer-section .right-side form {
   display: flex;
   align-items: center;
   justify-content: flex-end;
