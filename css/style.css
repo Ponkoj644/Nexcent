@@ -46,8 +46,6 @@ span {
   border: 1px solid var(--primary-color);
 }
 
-.section-heading {
-}
 .section-heading h3 {
   font-size: 2.25rem;
   line-height: 2.75rem;
@@ -114,17 +112,12 @@ span {
   color: var(--primary-color);
 }
 
-.hero-content .paragraph {
-  /* margin-top: 1rem;
-  margin-bottom: 2rem; */
-}
 /* Hero Section CSS End */
 
 /* Client section CSS Start  */
 .clients-section {
   background-color: var(--bg-white);
 }
-
 /* Client section CSS End  */
 
 /* Community Section CSS Start */
@@ -132,8 +125,6 @@ span {
   background-color: var(--bg-white);
 }
 
-.community-cards {
-}
 .community-cards .card {
   cursor: pointer;
   transition: var(--transition);
@@ -199,7 +190,6 @@ span {
   background-color: var(--bg-white);
 }
 
-
 .design-content .section-heading h4 {
   color: var(--primary-color);
   font-size: 1.25rem;
@@ -207,11 +197,8 @@ span {
   font-weight: 600;
 }
 
-.design-content-2{
-  background-color: #F5F7FA;
-}
-
-.design-section .reviews {
+.design-content-2 {
+  background-color: #f5f7fa;
 }
 
 .design-section .clients-logo a {
@@ -271,9 +258,6 @@ span {
 /* Marketing section CSS End */
 
 /* suscipit section CSS Start */
-.suscipit-section {
-}
-
 .suscipit-section .section-heading {
   width: 70%;
   margin: auto;
@@ -296,7 +280,6 @@ span {
 /* suscipit section CSS End */
 
 /* Footer section CSS Start  */
-
 .footer-section {
   background-color: #263238;
   color: var(--section-color);
@@ -308,7 +291,7 @@ span {
   gap: 3rem;
 }
 
-.footer-section .left-side p{
+.footer-section .left-side p {
   font-size: 14px;
   font-weight: 400;
   line-height: 20px;
@@ -372,11 +355,11 @@ span {
 .footer-section .right-side img {
   position: absolute;
   margin-right: 1rem;
+  cursor: pointer;
 }
 
 .footer-section .right-side input::placeholder {
   color: var(--section-color);
   font-size: 14px;
 }
-
 /* Footer section CSS End */
